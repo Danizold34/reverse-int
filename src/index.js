@@ -1,8 +1,4 @@
 module.exports = function reverse (n) {
-   if ( n < 0 ) {
-       n = n * -1 ; }
-    
-   return n.split("").reverse().join("");
-    //let num = Number(arr)
-    
+   return Number(n.Math.abs().toString().split("").reverse().join(""));
+   
 }
